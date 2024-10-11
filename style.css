@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    min-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff20;
+    padding: 20px;
+    height: 90px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.logo {
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin: 0 10px 0 17px;
+    transition: 0.5s ease all;
+}
+
+.logo img:hover {
+    transform: scale(1.2);
+}
+
+header .logo h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 0 0 0 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav ul .home {
+    background-color: #24a1d7;
+    height: 28px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    padding: 0 0 10px 0;
+    border-bottom: 2px solid #0056b3;
+}
+
+.login-btn {
+    width: 150px;
+}
+
+.get-started {
+    background-image: linear-gradient(to right , #24a1d7 , #167bc3);
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 13px;
+    transition: 0.5s ease all;
+    font-weight: 550;
+    font-size: 20px;
+    margin: 0 20px 0 0;
+    font-size: 26px;
+}
+
+.get-started:hover {
+    transform: scale(1.1);
+}
+
+main {
+    display: flex;
+    height: 89vh;
+    min-width: 100%;
+    margin: 3px 0 0 0;
+    background-image: url(images/background-home-test.png);
+}
+
+.hero {
+    margin: -30px 0 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-flow: wrap row; */
+}
+
+.hero-content {
+    width: 60%;
+    background-color: #3583a7cd;
+    border-radius: 25px;
+    height: 400px;
+    padding: 10px 0 0 60px;
+}
+
+.hero-content h2 {
+    font-size: 4rem;
+    color: #fff;
+    margin: 0 0 25px 0 ;
+    font-weight: 600;
+    line-height: 80px;
+    width: 100%;
+}
+
+.hero-content p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.hero-image img {
+    height: 560px;
+    margin: 0 20px 0 0;
+    z-index: 1;
+}
+
+nav ul .home a {
+    color: #fff;
+}

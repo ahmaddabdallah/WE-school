@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tech</title>
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="appointment.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="HealthTech Logo">
+            <h2>HealthTech</h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li ><a href="index.html">Home</a></li>
+                <li class="home"><a href="appointment.html">Appointment</a></li>
+                <li><a href="result.html">Results</a></li>
+                <li><a href="education.htm">Education</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <a href="log in page/log-in.html" class="get-started">log in</a>
+    </header>
+
+    <div class="container">
+        <div class="content">
+
+    <form>
+        <div class="fr-name">
+            <input type="text" name="First Name" id="First Name" placeholder="First Name" required>
+        </div>
+
+        <div class="ls-name">
+        <input list="hospitals" placeholder="Select a Hospital" name="Prog"/>
+            <datalist id="hospitals">
+            <option value="مستشفي السلام">
+            <option value="مستشفي دمنهور">
+            <option value="مستشفي ايتاي البارود">
+            <option value="مستنشفي كفر الشيخ">
+            <option value="مستشفي اورام دمنهور">
+            <option value="مستشفي ايتاي التخصصي">
+            <option value="مستشفي السلام">
+            <option value="مستشفي ايتاي البارود">
+            <option value="مستشفي كفر الدوار">
+            <option value="مستشفي كفر الزيات">
+            <option value="مستشفي البحيرة الجامعي">
+            <option value="مستشفي البحيرة التخصصي للجراحة">
+            <option value="مستشفي البحيرة التخصصي للطب البشري">
+            <option value="مستشفي البحيرة التخصصي للطب النفسي">
+            <option value="مستشفي البحيرة التخصصي للعلوم الطبية">
+            <option value="مستشفي البحيرة التخصصي للعيون">
+            <option value="مستشفي البحيرة التنفيذي">
+            <option value="مستشفي البحيرة الدولي">
+            <option value="مستشفي البحيرة للأطفال">
+            <option value="مستشفي البحيرة المركزي">
+        </datalist>
+        </div>
+
+        <div class="email">
+            <input list="specialty" placeholder="Determine of the specialty" required name="Prog"/>
+        <datalist id="specialty">
+            <option value = "أورام">
+            <option value = "انف و اذن">
+            <option value = "اطفال">
+            <option value = "امراض نسا">
+            <option value = "باطنة">
+            <option value = "جراحة">
+            <option value = "تمريض">
+            <option value = "علم الأنسان">
+            <option value = "طب الأعصاب">
+            <option value = "طب الأنف والأذن والحنجرة">
+        </datalist>
+        </div>
+
+        <div class="phone">
+            <input list="degree" required placeholder="Degree of Experience" name="Prog"/>
+            <datalist id="degree">
+                <option value = "دكتور">
+                <option value = "استاذ دكتور">
+                <option value = "استشاري">
+                <option value = "دكتور تخصصي">
+            </datalist>
+        </div>
+
+        <div class="pass">
+            <input list="doctor" placeholder="Select a doctor" required name="Prog"/>
+            <datalist id="doctor">
+                <option value = "الدكتور سامح العزالي">
+                <option value = "الدكتور السيد صالح">
+                <option value = "الدكتور بهجت ابراهيم">
+                <option value = "الدكتور ابراهيم محمد">
+                <option value = "دكتور مصطفي محمود">
+                <option value="دكتور عبد الرحمن الحسيني">
+                <option value="دكتورة جميلة الحسيني">
+                <option value="دكتور محمد الحسيني">
+                <option value="دكتورة عبير الحسيني">
+                <option value="دكتور عبد الله الحسيني">
+            </datalist>
+        </div>
+
+        <div class="pass">
+            <input type="datetime-local" required placeholder="Data and time" name="data and time" id="data">
+        </div>
+
+        <div class="mes-green">
+            <p>An appointment has been booked</p>
+        </div>
+
+            <div class="log-in">
+                <input type="submit" value="Booking" class="submit">
+            </div>
+        </div>
+
+    </form>
+
+    <div class="doctor-img">
+        <img src="images/app.png" alt="">
+    </div>
+    </div>
+
+    <script src="appointment.js"></script>
+    </html>
+    </body>
